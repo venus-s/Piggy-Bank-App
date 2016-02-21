@@ -12,6 +12,12 @@
     android:touchscreenBlocksFocus="false">
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/total" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,4 +27,5 @@
         android:background="@color/colorPrimary"
         android:textSize="@dimen/abc_text_size_large_material"
         android:textColor="#ffffff" />
+
 </LinearLayout>
