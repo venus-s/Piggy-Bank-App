@@ -27,7 +27,7 @@ public class TransactionActivity extends AppCompatActivity {
             new AlertDialog.Builder(v.getContext())
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle("Deposit Amount")
-                    .setMessage("Are you sure you want to deposit $" + depositAmount + "?")
+                    .setMessage("Deposit $" + depositAmount + "?")
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener()
                     {
                         @Override
@@ -47,7 +47,7 @@ public class TransactionActivity extends AppCompatActivity {
             new AlertDialog.Builder(v.getContext())
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle("Withdraw Amount")
-                    .setMessage("Are you sure you want to withdraw $" + withdrawAmount + "?")
+                    .setMessage("Withdraw $" + withdrawAmount + "?")
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener()
                     {
                         @Override
